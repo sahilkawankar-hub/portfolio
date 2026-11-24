@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sahil | WordPress Developer and AI Chatbot Builder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap">
+<style>
+:root{
+  --bg:#F4F6FA;--surface:#FFFFFF;--ink:#17202E;--muted:#55627A;--line:#D9DFEA;--accent:#1F4FD8;--on-accent:#FFFFFF;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151F;--surface:#171E2B;--ink:#EAEFF8;--muted:#9AA7BF;--line:#2A3446;--accent:#6D93FF;--on-accent:#0B1020;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10151F;--surface:#171E2B;--ink:#EAEFF8;--muted:#9AA7BF;--line:#2A3446;--accent:#6D93FF;--on-accent:#0B1020;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:56px 22px 72px}
+h1{font-size:clamp(34px,7vw,52px);line-height:1.08;font-weight:800;letter-spacing:-.02em;margin:0 0 18px}
+h2{font-size:24px;font-weight:800;letter-spacing:-.01em;margin:56px 0 14px}
+h3{font-size:18px;font-weight:700;margin:0 0 4px}
+p{margin:0 0 14px;max-width:66ch}
+.lead{font-size:20px;color:var(--muted);max-width:56ch}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:700;text-decoration:none;padding:13px 22px;border-radius:8px;margin-top:8px}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+a{color:var(--accent)}
+.case{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:28px}
+.case .meta{color:var(--muted);margin-bottom:18px}
+.case ul{margin:0 0 18px;padding-left:20px}
+.case li{margin-bottom:8px;max-width:64ch}
+.verticals{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.verticals li{border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:15px;margin:0}
+.svc{border-top:1px solid var(--line);padding:18px 0}
+.svc:last-of-type{border-bottom:1px solid var(--line)}
+.svc p{margin:0;color:var(--muted)}
+footer{margin-top:56px;color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<main>
+<h1>I build websites and AI chatbots for coaching institutes.</h1>
+<p class="lead">I am Sahil, a freelance WordPress developer in Mumbai. I turn enquiries from the website and WhatsApp into organised leads the owner can follow up the same day.</p>
+<a class="btn" href="https://wa.me/919137230029">Message me on WhatsApp</a>
+
+<h2>Delivered project</h2>
+<div class="case">
+<h3>DS Educational Group</h3>
+<p class="meta">Multi-vertical coaching institute, Dahisar, Mumbai. Full website build and revamp.</p>
+<ul class="verticals">
+<li>DS Abroad</li><li>DS Home Tutor</li><li>DS Online Tutorials</li><li>DS Hobby Classes</li><li>DS Classes</li>
+</ul>
+<ul>
+<li>Built the site on WordPress and Elementor with a separate section for each of the five verticals, so each audience sees its own offer.</li>
+<li>Connected every enquiry form to Google Sheets with Google Apps Script. Each vertical writes to its own tab, so no enquiry is mixed up or lost.</li>
+<li>Added form logic per vertical, such as a location field that appears only on the Home Tutor form.</li>
+<li>Set up email alerts so the institute is notified when a new enquiry arrives.</li>
+<li>Configured HTTPS, Google Search Console and a submitted sitemap so the site is indexed.</li>
+<li>Handed over script ownership and access to the client’s own accounts at project close.</li>
+</ul>
+<a href="https://dseducationalgroup.in" rel="noopener">View the live site</a>
+</div>
+
+<h2>Other builds</h2>
+<div class="svc"><h3>AI study agent</h3><p>Reads a student’s PDF notes and answers questions from them. Python, Groq LLaMA 3.3 70B, PyMuPDF and Gradio. Deployed on Hugging Face Spaces.</p></div>
+<div class="svc"><h3>AI personal communication agent</h3><p>Transcribes voice messages and replies through a Telegram bot. Groq Whisper, LLaMA 3 and the Telegram Bot API.</p></div>
+<div class="svc"><h3>MeetingFlow</h3><p>AI meeting assistant built with a team for the OSC AI Build 1.0 hackathon. Records live meetings, flags blockers and exports a summary to WhatsApp. Submitted to NexFellow.</p></div>
+
+<h2>Tools I work with</h2>
+<p>WordPress, Elementor, Google Apps Script, Google Sheets, Botpress, ChatBase, n8n and Python.</p>
+
+<h2>What I set up for your institute</h2>
+<div class="svc"><h3>AI chatbot for enquiries</h3><p>Replies instantly on your website or WhatsApp. Answers questions on courses, timings and basic fees at any hour.</p></div>
+<div class="svc"><h3>Demo class booking</h3><p>Students pick a course and book a demo class inside the chat. No phone calls needed to start.</p></div>
+<div class="svc"><h3>Lead capture</h3><p>Name, phone number and course go straight into a sheet. You open one file each morning and call the day’s leads.</p></div>
+<div class="svc"><h3>WordPress websites</h3><p>Clear course pages and enquiry forms that feed the same lead sheet.</p></div>
+
+<h2>How we start</h2>
+<p>I build a free demo chatbot with your courses and timings. You test it on your own phone. If it works for you, we agree on a price for the full setup.</p>
+<a class="btn" href="https://wa.me/919137230029">Ask for a free demo</a>
+
+<footer>Sahil, Mumbai, India. Available for freelance projects.<br>WhatsApp: 9137230029 | Email: <a href="mailto:sahilkawankar3@gmail.com">sahilkawankar3@gmail.com</a></footer>
+</main>
+</body>
+</html>
